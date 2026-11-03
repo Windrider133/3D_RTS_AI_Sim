@@ -1,0 +1,10 @@
+;; PLACEHOLDER values, abstract units. Calibrate until gate G1 passes.
+{:interceptor       {:class :strike    :cost 40  :build-time 12 :hp 80   :speed 12.0 :weapon {:range 6.0  :dps 10.0}}
+ :bomber            {:class :strike    :cost 60  :build-time 15 :hp 100  :speed 9.0  :weapon {:range 4.0  :dps 25.0}}
+ :flak-corvette     {:class :corvette  :cost 90  :build-time 20 :hp 250  :speed 7.0  :weapon {:range 10.0 :dps 18.0}}
+ :gunship-corvette  {:class :corvette  :cost 100 :build-time 22 :hp 300  :speed 6.5  :weapon {:range 11.0 :dps 22.0}}
+ :aa-frigate        {:class :frigate   :cost 250 :build-time 40 :hp 900  :speed 4.0  :weapon {:range 16.0 :dps 40.0}}
+ :anticap-frigate   {:class :frigate   :cost 280 :build-time 45 :hp 1000 :speed 3.8  :weapon {:range 20.0 :dps 55.0}}
+ :capital           {:class :capital   :cost 900 :build-time 120 :hp 6000 :speed 2.0 :weapon {:range 28.0 :dps 150.0}}
+ :collector         {:class :aux       :cost 80  :build-time 15 :hp 200  :speed 5.0}
+ :probe             {:class :aux       :cost 30  :build-time 8  :hp 40   :speed 14.0 :sensor-range 40.0}}

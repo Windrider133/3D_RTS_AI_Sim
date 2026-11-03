@@ -1,0 +1,10 @@
+;; PLACEHOLDER damage multipliers m[attacker][target]; default 1.0, only overrides listed.
+{:default 1.0
+ :overrides
+ {:interceptor      {:bomber 1.5 :probe 1.5 :flak-corvette 0.5 :aa-frigate 0.5}
+  :bomber           {:aa-frigate 1.5 :anticap-frigate 1.5 :capital 1.5 :interceptor 0.5 :flak-corvette 0.5}
+  :flak-corvette    {:interceptor 1.5 :bomber 1.5 :gunship-corvette 0.5 :aa-frigate 0.5 :anticap-frigate 0.5}
+  :gunship-corvette {:flak-corvette 1.5 :gunship-corvette 1.2 :interceptor 1.2 :anticap-frigate 0.5}
+  :aa-frigate       {:interceptor 1.5 :bomber 1.5 :capital 0.5}
+  :anticap-frigate  {:capital 1.5 :interceptor 0.5 :bomber 0.5}
+  :capital          {:aa-frigate 1.2 :anticap-frigate 1.2 :flak-corvette 1.2 :gunship-corvette 1.2 :bomber 0.5}}}
